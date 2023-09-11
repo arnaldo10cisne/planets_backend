@@ -31,6 +31,8 @@ ALLOWED_HOSTS = ['localhost', '.ngrok-free.app']
 # Application definition
 
 INSTALLED_APPS = [
+    "planets",
+    "rest_framework",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
